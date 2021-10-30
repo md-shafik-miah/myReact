@@ -1,0 +1,83 @@
+label {
+  display: block;
+  font-weight: bold;
+
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+.form-Container {
+  border: 1px solid skyblue;
+  margin: 10px auto 10px auto;
+  width: 320px;
+  padding: 10px;
+
+ 
+}
+
+input[type=text], input[type=email],input[type=password],.textarea,.select {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: green;
+  border: 2px solid skyblue;
+}
+
+.container {
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.flex-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-header {
+  background-color: blue;
+  padding: 50px 0px;
+  margin-bottom: 5px;
+ 
+}
+
+.flex-side {
+  background-color: rgb(230, 109, 109);
+  padding: 50px 5px;
+  flex-basis:  24%;
+  box-shadow: 0px 4px 4px grey;
+  
+ 
+}
+
+.flex-article {
+  background-color: blueviolet;
+  padding: 50px 5px;
+  flex-basis: 50%;
+}
+
+.flex-footer {
+  background-color: chocolate;
+  padding: 50px 0px;
+  margin: 5px 0px;
+}
+
+@media all and (max-width: 500px) {
+  .flex-main {
+    flex-direction: column;
+  }
+  .flex-article {
+    margin: 5px 0px;
+  }
+ 
+}
+
+
+
