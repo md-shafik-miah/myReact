@@ -34,6 +34,12 @@ function Tooltip() {
           <button>Hover</button>
         </Tippy>
       </div>
+      
+      <div style={{ padding: "20px" }}>
+        <Tippy placement='bottom' content={<ColorComponent/>}> 
+          <button>Hover</button>
+        </Tippy>
+      </div>
 
       <div style={{ padding: "20px" }}>
         <Tippy placement='top-start' content={<ColorComponent/>}> 
